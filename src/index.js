@@ -10,6 +10,6 @@ var Title = React.createClass({
   }
 })
 
-var HelloWorld = (<div><Title title="Hello JSX!" /></div>)
+var HelloWorld = (<div><Title title="Hello React, I am dynamic!" /></div>)
 
 ReactDOM.render(HelloWorld, document.getElementById('app'))
