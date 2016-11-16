@@ -52,6 +52,7 @@ export default class Header extends Component {
           { this.props.messages.length > 0 && this.state.isLoggedIn &&
             <p>
               <span><i className="em em-mailbox_with_mail"></i></span>
+              // ternary operator to check for > 1 message
               You have {this.props.messages.length} unread
               {this.props.messages.length > 1 ? ' messages' : ' message'}.
             </p>
